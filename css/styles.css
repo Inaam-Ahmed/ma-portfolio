@@ -13,10 +13,14 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 ------------------------------------*/
 body {
   color: #343434;
+  width: 905;
+  margin: 0 auto;
+  padding: 0;
 }
 img {
   width: 300px;
 }
+
 
 
 /* Profile
@@ -27,9 +31,19 @@ header {
 }
 
 
+/* Content Wrapper
+------------------------------------*/
+.content-wrap {
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+
 /* Projects
 ------------------------------------*/
-.projects {
+.teaching {
   background: #F7FFF7;
 }
 
@@ -43,12 +57,32 @@ header {
 
 /* Education
 ------------------------------------*/
+.education {
+  background: #FFE66D; /* yellow */
+}
 
+/* Skills
+------------------------------------*/
+.skills {
+  background: #F7FFF7; /* - almost white */
+}
 
+.btn{
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+a.btn:hover {
+  background-color: #A1C6D7; /* blue light*/
+}
 
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
-  color: #F7FFF7;
+  background: #2F3061; /* blue dark */
+  color: white;
 }
