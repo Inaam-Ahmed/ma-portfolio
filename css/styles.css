@@ -16,9 +16,27 @@ body {
   width: 905;
   margin: 0 auto;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5; /*150%*/
 }
 img {
   width: 300px;
+}
+h1{
+  font-size: 100px;
+
+}
+h2 {
+  font-size: 45px;
+  line-height: 1;
+}
+h1,h2 {
+  font-family: 'Actor', sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: 400;
+  margin: 0;
 }
 h1,h2,h3,h4,h5 {
   margin: 0;
@@ -66,7 +84,7 @@ header {
 /* Skills
 ------------------------------------*/
 .skills {
-  background: #F7FFF7; /* - almost white */
+  background: #A7FF80; /* - Parrot Green */
 }
 
 .btn{
